@@ -1,2 +1,0 @@
-# jokar
-# jokar_ws
