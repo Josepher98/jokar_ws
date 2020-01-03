@@ -1,0 +1,8 @@
+prefix=/home/pi/ws_jokar/devel
+
+Name: raskar_node
+Description: Description of raskar_node
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

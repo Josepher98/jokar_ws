@@ -1,0 +1,8 @@
+prefix=/home/pi/ws_jokar/devel
+
+Name: controller_manager
+Description: Description of controller_manager
+Version: 0.15.1
+Cflags: -I/home/pi/ws_jokar/src/ros_control/controller_manager/include -I/usr/include
+Libs: -L${prefix}/lib -lcontroller_manager /usr/lib/arm-linux-gnueabihf/libboost_thread.so -pthread /usr/lib/arm-linux-gnueabihf/libboost_chrono.so /usr/lib/arm-linux-gnueabihf/libboost_system.so /usr/lib/arm-linux-gnueabihf/libboost_date_time.so /usr/lib/arm-linux-gnueabihf/libboost_atomic.so
+Requires: controller_interface controller_manager_msgs hardware_interface pluginlib

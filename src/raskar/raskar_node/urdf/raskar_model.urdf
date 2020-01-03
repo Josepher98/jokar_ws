@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<robot name ="raskar">
+
+	<material name="blue">
+		<color rgba="0 0 0.8 1"/>
+	</material>
+
+
+	<link name="base_car">
+		<visual>
+			<geometry>				
+				<mesh filename="package://raskar_node/meshes/ciss_bosch.stl"/>
+				<material name="blue"/>
+			</geometry>	
+		</visual>
+	</link>
+
+
+	<link name="testing_link">
+		<visual>
+			<origin rpy="0 0 0" xyz="0 0 1" />
+			<geometry>
+				<mesh filename="package://raskar_node/meshes/ciss_bosch.stl"/>
+				<material name="blue"/>
+			</geometry>		
+		</visual>
+	</link>
+
+
+	<joint name="base_to_testing" type="fixed">
+		<parent link="base_car"/>
+		<child link="testing_link"/>
+	</joint>	
+
+
+
+</robot>

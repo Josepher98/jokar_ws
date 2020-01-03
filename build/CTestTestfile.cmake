@@ -1,0 +1,35 @@
+# CMake generated Testfile for 
+# Source directory: /home/pi/ws_jokar/src
+# Build directory: /home/pi/ws_jokar/build
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+subdirs("gtest")
+subdirs("ros_control/ros_control")
+subdirs("rosserial/rosserial")
+subdirs("rosserial/rosserial_arduino")
+subdirs("rosserial/rosserial_mbed")
+subdirs("rosserial/rosserial_msgs")
+subdirs("rosserial/rosserial_python")
+subdirs("rosserial/rosserial_tivac")
+subdirs("rosserial/rosserial_vex_cortex")
+subdirs("rosserial/rosserial_vex_v5")
+subdirs("rosserial/rosserial_xbee")
+subdirs("rosserial/rosserial_client")
+subdirs("ros_control/rqt_controller_manager")
+subdirs("ros_control/controller_manager_msgs")
+subdirs("ros_control/hardware_interface")
+subdirs("ros_control/combined_robot_hw")
+subdirs("ros_control/controller_interface")
+subdirs("ros_control/controller_manager")
+subdirs("ros_control/controller_manager_tests")
+subdirs("ros_control/combined_robot_hw_tests")
+subdirs("rosserial/rosserial_server")
+subdirs("rplidar_ros")
+subdirs("raskar/raskar_node")
+subdirs("roboclaw_ros/roboclaw_node")
+subdirs("rosserial/rosserial_embeddedlinux")
+subdirs("rosserial/rosserial_test")
+subdirs("rosserial/rosserial_windows")
+subdirs("ros_control/transmission_interface")
+subdirs("ros_control/joint_limits_interface")
